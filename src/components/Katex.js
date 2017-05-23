@@ -15,7 +15,11 @@ class Katex extends Component {
 
   componentDidMount() {
     const element = ReactDOM.findDOMNode(this)
-    const renderedMath = katex.render(this.state.latex, element);
+    try {
+      const renderedMath = katex.render(this.state.latex, element);
+    } catch (e) {
+      console.log(e)
+    }
   }
 
   render() {
