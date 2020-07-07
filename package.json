@@ -17,7 +17,7 @@
     "redux-logger": "^3.0.6"
   },
   "devDependencies": {
-    "electron": "^1.6.8",
+    "electron": "^9.1.0",
     "foreman": "^2.0.0"
   },
   "homepage": "./",
